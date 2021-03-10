@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS1998: O método assíncrono não possui operadores 'await' e será executado de forma síncrona
+dotnet_diagnostic.CS1998.severity = none
+
+# CS4014: Como esta chamada não é esperada, a execução do método atual continua antes de a chamada ser concluída
+dotnet_diagnostic.CS4014.severity = none
